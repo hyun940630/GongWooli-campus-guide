@@ -1,0 +1,125 @@
+
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+
+@font-face {
+    font-family: 'NotoSansCJK_Bold';
+    src: url('../../font/NotoSansCJKkr-Bold.otf');
+}
+
+@font-face {
+    font-family: 'NotoSansCJK_Regular';
+    src: url('../../font/NotoSansCJKkr-Regular.otf');
+}
+
+a {
+  font-family: 'NotoSansCJK_Regular';
+}
+
+.container {
+  font-family: 'helvetica neue';
+  position: relative;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  -webkit-transition: left 0.4s ease-in-out;
+  -moz-transition: left 0.4s ease-in-out;
+  -ms-transition: left 0.4s ease-in-out;
+  -o-transition: left 0.4s ease-in-out;
+  transition: left 0.4s ease-in-out;
+}
+
+.container.open-sidebar { left: 260px; }
+
+  #sidebar {
+    font-family: 'helvetica neue';
+    overflow: auto;
+    background: #15aabf;
+    position: absolute;
+    width: 260px;
+    height: 100%;
+    left: -260px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  #sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #sidebar ul li {
+    margin: 0;
+    list-style: none;
+  }
+
+  #sidebar ul li a {
+    font-weight: 400;
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 12px 0 12px 25px;
+    display: block;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+
+  .depth-1 {
+    background: #3bc9db;
+  }
+  .depth-2 {
+    background: #1098ad;
+  }
+  .depth-3 {
+    background: #0b7285;
+  }
+
+  #sidebar ul li a:hover {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  #sidebar ul li ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  #sidebar ul li a i {
+    width: 20px;
+  }
+
+  #sidebar ul li a i .fa-angle-right {
+    padding-top: 3px;
+  }
+  #sidebar ul ul {
+    display: none;
+  }
+  #sidebar ul ul li {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: none;
+  }
+
+  .main-content #sidebar-toggle {
+    z-index: 100;
+    display: block;
+  }
+
+  .main-content #sidebar-toggle .bar1, .main-content #sidebar-toggle .bar2, .main-content #sidebar-toggle .bar3 {
+    display: block;
+    width: 27px;
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+  }
+
+
+  .main-content #sidebar-toggle .bar:last-child { margin-bottom: 0; }

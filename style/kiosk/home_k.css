@@ -1,0 +1,113 @@
+@media ( min-width: 1025px ) and ( min-height: 1600px ) {
+  .main-content {
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .bread_wrap img {
+    position: absolute;
+    max-width: 70%;
+    max-height: 70%;
+    left: 5%;
+    bottom: 5%;
+  }
+
+  .app_logo_wrap img {
+    max-width: 70%;
+    max-height: 70%;
+    bottom: 60%;
+    left: 50%;
+  }
+
+  .app_name_wrap span {
+    position: absolute;
+    font-family: 'NotoSansCJK_Bold';
+    font-size: 15pt;
+  }
+
+  .date_wrap span {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+
+    font-weight: bold;
+    color: #fff;
+    font-size: 18pt;
+  }
+
+  .app_name_wrap span {
+    font-size: 15pt;
+  }
+
+  section {
+    width: 100%;
+    height: 80%;
+  }
+
+  .content_wrap {
+    position: relative;
+    width: 100%;
+    height: 95%;
+    background-color: #00000000;
+    z-index: 2;
+  }
+
+  .link_wrap span {
+    position: absolute;
+    font-family: 'NotoSansCJK_Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #f6f6f6;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .dept_name_wrap span {
+    font-size: 3.0rem;
+  }
+
+  .btn {
+      width: 120px;
+      height: 120px;
+  }
+
+  .bg_img_wrap {
+    width: 100%;
+    height: 0.625%;
+  }
+
+  .bg_img_wrap img {
+    width: 100%;
+    max-height: 16000%;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .calendarTable tbody tr .dotLine {
+      font-size: 1.0rem;
+  }
+
+  .calendarTable tbody td {
+      font-size: 1.0rem;
+  }
+
+  footer {
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    text-align: center;
+    border-top: solid 2px #ffffff;
+  }
+
+  .developBy {
+      width: 100%;
+      height: 100%;
+      color: #ecf0f1;
+
+      font-family: 'NotoSansCJK_Regular';
+      font-size: 1.0rem;
+      padding-top: 10px;
+  }
+}

@@ -1,0 +1,6 @@
+
+function openVoiceDialog() {
+  recognitionStart();
+
+  
+}

@@ -1,0 +1,24 @@
+@media ( min-width: 768px ) and ( max-width: 1024px ) {
+  .main-content {
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .bread_wrap img {
+    position: absolute;
+    max-width: 70%;
+    max-height: 70%;
+    left: 5%;
+    bottom: 0%;
+  }
+
+  .prev_btn_wrap img {
+    position: absolute;
+    max-width: 65%;
+    max-height: 65%;
+    right: 5%;
+    bottom: 4%;
+  }
+}

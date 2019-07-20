@@ -1,0 +1,32 @@
+@media ( min-width: 1025px ) {
+  .main-content {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .path_wrap {
+    position: relative;
+    width: 100%;
+    height: 43%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .prev_btn_wrap img {
+    position: absolute;
+    max-width: 65%;
+    max-height: 65%;
+    right: 5%;
+    bottom: 4%;
+  }
+
+  .btn {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      background: #15aabf;
+      border-radius: 10px;
+  }
+}

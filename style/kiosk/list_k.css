@@ -1,0 +1,44 @@
+@media ( min-width: 1025px ) and ( min-height: 1600px ) {
+  .main-content {
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .bread_wrap img {
+    position: absolute;
+    max-width: 70%;
+    max-height: 70%;
+    left: 5%;
+    bottom: 0%;
+  }
+
+  .prev_btn_wrap img {
+    position: absolute;
+    max-width: 65%;
+    max-height: 65%;
+    right: 5%;
+    bottom: 4%;
+  }
+
+  .number_wrap font {
+    font-size: 1.5rem;
+  }
+
+  .title_wrap font {
+    font-size: 1.5rem;
+  }
+
+  .category_wrap font {
+    font-size: 1.2rem;
+  }
+
+  .dept_wrap font {
+    font-size: 1.2rem;
+  }
+
+  .user_wrap font {
+    font-size: 1.2rem;
+  }
+}

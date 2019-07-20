@@ -1,0 +1,16 @@
+@media ( min-width: 1025px ) {
+  .main-content {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .prev_btn_wrap img {
+    position: absolute;
+    max-width: 65%;
+    max-height: 65%;
+    right: 5%;
+    bottom: 4%;
+  }
+}
