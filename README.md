@@ -47,4 +47,4 @@
 
 </br>
 </br>
-  [EcGuide_WKU 창의공과대학 건물 정보 시스템](http://ecguide.wku.ac.kr/Ecguide/home.php)
+[EcGuide-WKU 창의공과대학 건물 정보 시스템](http://ecguide.wku.ac.kr/Ecguide/home.php)
