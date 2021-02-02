@@ -51,6 +51,6 @@
 </br>
 </br>
 
-## 바로가기 - 서비스 종료
+## 바로가기 - 서비스 종료😇
 
 [EcGuide-WKU 창의공과대학 건물 정보 시스템](http://ecguide.wku.ac.kr/Ecguide/home.php)
